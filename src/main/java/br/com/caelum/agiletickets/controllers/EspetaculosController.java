@@ -39,10 +39,6 @@ public class EspetaculosController {
 	private Agenda agenda;
 	private DiretorioDeEstabelecimentos estabelecimentos;
 	private Estabelecimento estabelecimento;
-	
-	/** @deprecated CDI eyes only*/
-	protected EspetaculosController() {
-	}
 
 	@Inject
 	public EspetaculosController(Result result, Validator validator, Agenda agenda, DiretorioDeEstabelecimentos estabelecimentos) {
